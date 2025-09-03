@@ -1,0 +1,26 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Backend configuration (created dynamically during setup)
+backend-config.tf
+
+# Plan files
+*.tfplan
+
+# Logs
+*.log
+
+# Environment-specific files
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# Azure CLI files
+.azure/
+
+# SSH keys
+*.pem
+*.key

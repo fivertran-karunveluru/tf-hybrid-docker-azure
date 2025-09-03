@@ -1,0 +1,31 @@
+# Example terraform.tfvars file
+# Copy this file to terraform.tfvars and modify the values as needed
+
+# Environment configuration
+environment = "dev"
+project_name = "Docker-Hybrid-Agent"
+
+# VM configuration
+vm_size = "Standard_D4s_v3"
+admin_username = "fivetran"
+admin_ssh_key = "~/.ssh/id_rsa.pub"
+
+# Network configuration
+my_ip = "xx.xx.xx.xx/32"
+health_check_port = 8090
+
+# Fivetran configuration
+agent_token = "your-agent-token-here"  # Replace with actual token
+
+# Organization information
+team_name = "solution_architects"
+department_name = "customer_solutions_group"
+owner_name = "karunakar.veluru@fivetran.com"
+expires_on = "2025-06-30"
+
+# Azure configuration
+location = "West US 2"
+subscription_id = ""  # Leave empty to use default subscription
+resource_group_name = "rg-fivetran-hybrid-agent"
+
+
